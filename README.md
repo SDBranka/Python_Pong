@@ -9,7 +9,8 @@
 ---
 
 <p float="center">
-    <img src="https://github.com/SDBranka/Snake_Game_v2/blob/main/Resources/Chasing_Food_screenshot.png" width=45% alt="gameplay image"/>
+    <img src="https://github.com/SDBranka/Python_Pong/blob/main/Resources/Gameplay_screenshot.png" width=45% alt="gameplay image"/>
+    <img src="https://github.com/SDBranka/Python_Pong/blob/main/Resources/Win_screenshot.png" width=45% alt="gameplay image"/>
 </p>
 
 ## Description
