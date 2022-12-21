@@ -16,6 +16,8 @@
 
 Remake of Atari's famous Pong game built with Python using the Turtle module.  
 
+Game is won when either player scores ten points.
+
 ##### Controls
 <ul>
     <li>Right Paddle
@@ -36,6 +38,7 @@ Remake of Atari's famous Pong game built with Python using the Turtle module.
 
 - Python
 - Turtle module
+- OOP
 - Visual Studio
 
 ---

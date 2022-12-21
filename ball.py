@@ -10,10 +10,15 @@ class Ball(t.Turtle):
         self.penup()
         self.color("blue")
         self.shape("circle")
+        # rate of change in x
         self.dx = 10
+        # rate of change in y
         self.dy = 10
         # # make ball 10x10 pixels 
         # self.shapesize(stretch_wid = 0.5, stretch_len = 0.5)
+        # this will be used to determine which direction
+            # the ball is served to after respawning
+        self.serve_direction = 1
 
 
     def move(self):
@@ -35,5 +40,8 @@ class Ball(t.Turtle):
 
     def ball_respawn(self):
         self.goto(0, 0)
+        self.serve_direction *= -1
         self.dx = 10
         self.dy = 10
+        if self.serve_direction < 0:
+            self.dx *= -1
